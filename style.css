@@ -100,17 +100,18 @@ h2 span{
   pointer-events: none;      
      
 }
-@media (width <= 1050px ) {
+@media (width <= 1030px ) {
   .container{
-    min-width:90%;
-   margin: 0 30px 0 30px;
+    width:90%;
+   margin: 0 auto;
+   max-width: 1000px;
   }
 }
 @media (max-width : 992px){
   .container{
     flex-direction: column-reverse;
-    max-width:40%;
-
+    width: 50%;
+  /* margin: 200px auto; */
   }
   .left_box, .right_box{
     width: 100%;
