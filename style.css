@@ -25,15 +25,14 @@ body{
     background-color: #3a065f;
     display: flex; 
     border-radius: 8px;
-   /* margin: 0 150px 0 150px; */
+   
    flex-direction: row;
    
 }
 .left_box{
   padding: 50px ;
   width: 50%;
-  /* border: 2px solid black; */
-  /* margin: 0 20px 0 0; */
+ 
 }
 .heading h2{
     font-size: 40px;
@@ -111,7 +110,11 @@ h2 span{
   .container{
     flex-direction: column-reverse;
     width: 50%;
+    
   /* margin: 200px auto; */
+  }
+  .main_container{
+    padding-top: 140px;
   }
   .left_box, .right_box{
     width: 100%;
