@@ -185,7 +185,6 @@ h2 span{
   }
 
   .box_01 {
-    flex-direction: column;
     align-items: center;
   }
 
@@ -210,5 +209,7 @@ h2 span{
 
   .box_01 {
     font-size: 13px;
+    flex-direction: column;
+
   }
 }
